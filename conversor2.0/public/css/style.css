@@ -1,0 +1,65 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #19182b;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  color: #766ff7;
+}
+
+main {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+.converter {
+  font-family: honk, sans-serif;
+  font-size: 28px;
+  background: rgb(51, 52, 88);
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0px 0px 19px rgba(234, 0, 255, 0.834);
+}
+.converter fieldset {
+  border: none;
+  padding: 0;
+}
+.converter fieldset legend {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+.converter .icon-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.converter .icon-container svg {
+  display: block;
+}
+.converter label {
+  display: block;
+  margin: 10px 4px 0px;
+}
+.converter input, .converter select, .converter button {
+  margin: 5px 0;
+  padding: 10px;
+  border: 2px solid #d400ff;
+  border-radius: 6px;
+}
+.converter button {
+  background-color: #050408;
+  color: rgb(255, 0, 200);
+  border: none;
+  cursor: pointer;
+}
+.converter button:hover {
+  background-color: #8a0091;
+}
+
+.svg-container {
+  margin-top: 20px;
+}/*# sourceMappingURL=style.css.map */
