@@ -14,8 +14,7 @@ function convert() {
     let convertedAmount;
     let resultText;
     
-    // Taxas de conversão fictícias
-    const conversionRate = 5.0; // Exemplo: 1 USD = 5 BRL
+    const conversionRate = 5.0;
     
     if (currency === 'BRL') {
         convertedAmount = amount / conversionRate;
